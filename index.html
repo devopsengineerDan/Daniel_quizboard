@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <title>Javascript Quiz board</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="column">
+            <div class="jumbotron" style="margin-top: 20px;" style="margin-left: 20px;" style="margin-right: 20px;">
+                <span style="float:center;">
+                    <h1><i>Javascript Quiz Board</i> </h1>
+                </span>
+            </div>
+        </div>
+        <div class="column">
+            <form id="quizBoard" class="border" class="form-group">
+                <span style="float:center;" style="margin-top: 60px;">
+                    <img src="./images/js.png" alt="A photo of js" style="float:center;" height=150px width=150px>
+                </span>
+                <div align="left" style="margin-top: 30px;">
+                    <p style="margin-top: 20px;">
+                        1. Why so JavaScript and Java have similar name? (5 mks)<br> <input type="radio" name="qstOne" value="0" required>JavaScript is a stripped-down version of Java <br><input type="radio" name="qstOne" value="5">JavaScript's syntax
+                        is loosely based on Java's
+                        <br><input type="radio" name="qstOne" value="0">They both originated on the island of Java<br><input type="radio" name="qstOne" value="0">None of the above<br>
+                    </p>
+                    <hr>
+                    <p style="margin-top: 10px;">
+                        2. What is another name for server-side Javascript? (5 mks)<br><input type="radio" name="qstTwo" value="0" required>Native JavaScript <br><input type="radio" name="qstTwo" value="0">Navigator JavaScript<br><input type="radio" name="qstTwo"
+                            value="5">LiveWire JavaScript
+                        <br><input type="radio" name="qstTwo" value="0">React JavaScript<br>
+                    </p>
+                    <hr>
+                    <p style="margin-top: 10px;">
+                        3. When a user views a page containing a JavaScript program which machine actually e!ecutes the script? (5 mks)<br><input type="radio" name="qstThree" value="0" required>The user's machine running a web browser<br><input type="radio"
+                            name="qstThree" value="5">The web server<br><input type="radio" name="qstThree" value="0">A central machine<br><input type="radio" name="qstThree" value="0">All of the above<br>
+                    </p>
+                    <hr>
+                    <p style="margin-top: 10px;">
+                        4. What is another name for client-side Javascript? (5 mks)<br><input type="radio" name="qstFour" value="0" required>Native JavaScript <br><input type="radio" name="qstFour" value="5">Navigator JavaScript<br><input type="radio"
+                            name="qstFour" value="0">Live JavaScript
+                        <br><input type="radio" name="qstFour" value="0">React JavaScript<br>
+                    </p>
+                    <hr>
+                    <p style="margin-top: 10px;">
+                        5. The property of JSON( ) method is? (5 mks)<br><input type="radio" name="qstFive" value="0" required>It can be invoked manually as object.JSON( ) <br><input type="radio" name="qstFive" value="0">It will be automatically invoked
+                        by the compiler
+                        <br>
+                        <input type="radio" name="qstFive" value="5">It is invoked automatically by the JSON.stringify( ) method<br><input type="radio" name="qstFive" value="0">It cannot be invoked in any form<br>
+                    </p>
+                    <hr>
+                </div>
+                <div>
+                    <button style="margin-top: 10px;" class="submit" value="Submit" type="submit">Submit</button>
+                </div>
+            </form>
+            <div class="result">
+                <h1 id="totalScore"></h1><br>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=" anonymous "></script>
+    <script src="js/scripts.js "></script>
+</body>
+
+</html
